@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+html {
+  margin: 0 auto;
+  background-color: #9dded4;
+}
+.container {
+  margin: 0 auto;
+  width: 1024px;
+  height: 800px;
+}
+.title {
+  height: auto;
+  margin: 40px auto;
+  font-family: Cambria;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #187566;
+}
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #79d2c5;
+  color: #294e46;
+}
+.keyboard {
+  width: 700px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #294e46;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #00ae9a;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.key {
+  height: 40px;
+  width: 40px;
+  border: solid 1px #294e46;
+  background: #79d2c5;
+  border-radius: 5px;
+  margin: 3px;
+  font-family: Courier;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+.key:hover {
+  color: #294e46;
+  background: #9dded4;
+  box-shadow: 1px 1px #0000;
+  font-size: 20px;
+  cursor: pointer;
+}
+.key.active {
+  color: #294e46;
+  background: #9dded4;
+  box-shadow: 1px 1px #0000;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.backspace {
+  width: 85px;
+}
+.tab {
+  width: 50px;
+}
+.caps-lock,
+.left-shift {
+  width: 80px;
+}
+.left-ctrl,
+.right-ctrl,
+.left-alt,
+.right-alt {
+  width: 50px;
+}
+.space {
+  width: 340px;
+}
+
+.letter-key {
+  font-size: 12px;
+  text-align: center;
+  background-color: #4ec3b3;
+}
+.letter-key:hover {
+  font-size: 14px;
+
+}
+.letter-key.active {
+  font-size: 14px;
+
+}
+.right-shift,
+.enter {
+  width: 90px;
+}
+
+.up,
+.up:hover,
+.up.active,
+.left,
+.left:hover,
+.left.active,
+.down,
+.down:hover,
+.down.active,
+.right,
+.right:hover,
+.right.active {
+  width: 40px;
+  height: 40px;
+  font-size: 5px;
+  color: #00000000;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.up,
+.up:hover,
+.up.active{
+  background-image: url("https://img.icons8.com/laces/64/null/sort-up.png");
+}
+.left,
+.left:hover,
+.left.active {
+  background-image: url("https://img.icons8.com/laces/64/null/sort-left.png");
+}
+.down,
+.down:hover,
+.down.active {
+  background-image: url("https://img.icons8.com/laces/64/null/sort-down.png");
+}
+.right,
+.right:hover,
+.right.active {
+  background-image: url("https://img.icons8.com/laces/64/null/sort-right.png");
+}
+.win,
+.win:hover,
+.win.active {
+  color: #00000000;
+  background-image: url("https://img.icons8.com/offices/30/null/windows8.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.info {
+  margin: 15px auto;
+  padding: 15px;
+  color: #525252;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: oblique;
+  text-align: center;
+}
