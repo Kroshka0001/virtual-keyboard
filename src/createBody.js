@@ -16,16 +16,7 @@ export function createBody() {
   const keyboard = document.createElement('div');
   keyboard.classList.add('keyboard');
   container.append(keyboard);
-/*
-  const line = document.createElement('div');
-  line.classList.add('line');
-  keyboard.append(line);
 
-  let key = document.createElement('div');
-  key.classList.add('key');
-  key.innerHTML = '~';
-  line.append(key);
-*/
   const info = document.createElement('div');
   info.classList.add('info');
   container.append(info);
@@ -34,13 +25,4 @@ export function createBody() {
   description.classList.add('description');
   description.innerHTML = 'This keyboard was created in the Windows operating system<br>To change the language, use the following keyboard shortcut: <i>Alt + Ctrl</i><br>Current language: EN';
   info.append(description);
-
-
-
-
-
-
-
 }
-
-export let testVar="Ok"
